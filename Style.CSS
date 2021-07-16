@@ -1,0 +1,139 @@
+
+body {
+    background-color: rgb(116, 116, 116);
+    margin: 0%;
+    padding: 0%;
+}
+.MainPostContainer {
+    overflow: auto;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border: 5px solid rgb(0, 0, 0);
+    width: 50%;
+    height: 650px;
+    margin: auto;
+    margin-top: 0px;
+    justify-content: center;
+}
+.JJPOST {
+    background-color: rgb(140, 0, 255);
+    border: 5px solid rgb(0, 0, 0);
+    margin-bottom: 1px;
+    width: 50%;
+    margin: auto;
+}
+.MyUser {
+    color: rgb(8, 8, 8);
+    font-family: Arial, Helvetica, sans-serif;
+} 
+.MyText {
+   font-family: Arial, Helvetica, sans-serif; 
+}
+.inputSection {
+    background-color: rgb(111, 0, 255);
+    border: 5px solid rgb(0, 0, 0);
+    width: 50%;
+    margin: auto;
+    display: flex;
+}
+.dname {
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: initial;
+    display: flex;
+}
+.comment {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 13px;
+    display: flex;
+}
+
+.comment input {
+    width: 400%;
+    display: flex;
+}
+
+.button {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 12px;
+    display: flex;
+}
+
+.FinishComment {
+    margin-top: 2px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    width: 100px;
+    height: 50px;
+} 
+
+.FCom {
+    display:flex;
+    background-image: url(logo.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    width:50px;
+    height:50px;
+}
+.userIMG {
+    background-image: url(logo.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    width:50px;
+    height:50px;
+}
+.userName {
+    color: blueviolet;
+    flex-direction: row-reverse;
+    justify-content: center;
+    padding-left: 7px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 45PX;
+}
+.userCom {
+    font-size: x-large;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(0, 26, 255);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-left: 10px;
+    padding-right: 750px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    width: 750px;
+}
+.editb {
+    margin-left: 5px;
+}
+.dbutton {
+  margin-left: -40px;  
+  margin-top: 30px;
+}
+
+.editFarm {
+    display: flex;
+
+}
+.NewText {
+    margin-left: 30px;
+    padding-right: 100px;
+}
+.nodisplay {
+    display:none;
+
+}
+.NewButton {
+    background-color: red;
+}
